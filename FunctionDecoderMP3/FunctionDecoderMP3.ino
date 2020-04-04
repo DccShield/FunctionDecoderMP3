@@ -18,14 +18,14 @@
 #define DEBUG      //リリースのときはコメントアウトすること
 
 //各種設定、宣言
-unsigned int cvtbleNow = 0;
+
 unsigned char cvtblePrev[20]={0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 
 //使用クラスの宣言
 NmraDcc   Dcc;
 DCC_MSG  Packet;
 
-SoftwareSerial mySoftwareSerial(A5, A4); // RX, TX
+SoftwareSerial mySoftwareSerial(A4, A5); // RX, TX
 DFRobotDFPlayerMini myDFPlayer;
 
 struct CVPair {
@@ -233,7 +233,7 @@ extern void notifyDccSpeed( uint16_t Addr, DCC_ADDR_TYPE AddrType, uint8_t Speed
   
   }
 
-  #ifdef DEBUG
+  #ifdef DEBUG2
     // デバッグメッセージ
     Serial.print("Speed - ADR: ");
     Serial.print(Addr);
