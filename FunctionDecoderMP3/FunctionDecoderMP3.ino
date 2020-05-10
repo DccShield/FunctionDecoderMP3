@@ -1,12 +1,22 @@
+//--------------------------------------------------------------------------------
 // DCC Smile Function Decoder MP3
 // DFPlayer miniと組み合わせて使える、MP3 Sound Decoder
-// 
+// [FunctionDecoderMP3.ino]
+// Copyright (c) 2020 Ayanosuke(Maison de DCC) / Desktop Station
+//
+// http://maison-dcc.sblo.jp/ http://dcc.client.jp/ http://ayabu.blog.shinobi.jp/
+// https://twitter.com/masashi_214
+//
+// DCC電子工作連合のメンバーです
+// https://desktopstation.net/tmi/ https://desktopstation.net/bb/index.php
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//--------------------------------------------------------------------------------
+
 // mp3フォルダに、0001.mp3 0002.mp3 の様に4桁の数字ファイル名で格納
 // ファンクションは F0:0001.mp3 〜 F10:0011.mp3 に対応
 // 音量はCV58
-//
-// http://dcc.client.jp
-// http://ayabu.blog.shinobi.jp
 
 #include <arduino.h>
 #include "DccCV.h"

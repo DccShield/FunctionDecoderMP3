@@ -1,3 +1,13 @@
+//--------------------------------------------------------------------------------
+// レイアウト用鉄橋ジョイント音ジェネレータ
+// [DccCV.h]
+// Copyright (c) 2020 Ayanosuke(Maison de DCC) / Desktop Station
+// https://desktopstation.net/bb/index.php
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//--------------------------------------------------------------------------------
+
 #ifndef _DccCV_h_
 #define _DccCV_h_
 
